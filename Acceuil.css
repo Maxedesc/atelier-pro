@@ -1,0 +1,100 @@
+
+/* Début du CSS du Header */
+
+header{
+    width: 100%;
+    height: 125px;
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #94c01c;
+}
+#Conteneur-1{  /* CSS de l'image d'Arnas */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    top: 10px
+    
+}
+#Logo-Arnas{
+    height: 100%;
+    width: 65%;
+}
+#Conteneur-2{ /* CSS de la barre de recherche et du bouton */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.menu{
+    color: black;
+    font-weight: 700;
+    font-family: "Geologica", sans-serif;
+    font-size: 20px;
+    border-left: 2px solid #94c01c;
+    border-right: 2px solid #94c01c;
+    padding: 15px;
+}
+#Conteneur-3{ /* CSS de la barre de recherche et du bouton */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bouton-recherche{
+    display: flex;
+    justify-content: end;
+}
+#Recherche{
+    width: 50%;
+    height: auto;
+    background-color: #94c01c;
+}
+.search-bar{
+    font-size: 23px;
+}
+
+/* Fin du CSS du Header */
+#la-commune {
+    font-family: 'Geologica', sans-serif;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#la-commune h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#la-commune h2 {
+    color: #444;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+#la-commune ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+#la-commune ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#la-commune p {
+    line-height: 1.8;
+    color: #555;
+    margin: 10px 0;
+}
+
+#la-commune article {
+    margin-bottom: 30px;
+}
